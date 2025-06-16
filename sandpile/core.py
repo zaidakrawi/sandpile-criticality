@@ -38,7 +38,7 @@ class Sandpile:
                         unstable = True
 
     def visualize(self):
-        plt.imshow(self.grid, cmap="viridis", interpolation="nearest")
+        plt.imshow(self.grid, cmap="plasma", interpolation="nearest")
         plt.colorbar(label="Number of grains")
-        plt.title("Sandpile configuration")
+        plt.title("Sandpile Configuration")
         plt.show()
